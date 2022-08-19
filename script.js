@@ -11,7 +11,7 @@ function settingClass(element,query){
         element.classList.add("btn-light");
        head.style.backgroundImage="url('images/desktop/image-header.jpg')";
        photographs.style.backgroundImage="url('images/desktop/image-photography.jpg')";
-       graphics.style.backgroundImage="url('/images/desktop/image-graphic-design.jpg')";
+graphics.style.backgroundImage="url('./images/desktop/image-graphic-design.jpg')";
         console.log(element)
     }
     else{
@@ -19,7 +19,7 @@ function settingClass(element,query){
         head.style.backgroundImage="url('images/mobile/image-header.jpg')";
         element.classList.remove("btn-light");
         photographs.style.backgroundImage="url('images/mobile/image-photography.jpg')";
-        graphics.style.backgroundImage="url('/images/mobile/image-graphic-design.jpg')";
+        graphics.style.backgroundImage="url('./images/mobile/image-graphic-design.jpg')";
         console.log(element)
     }
 }
