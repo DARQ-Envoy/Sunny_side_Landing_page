@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: serif;
+    height: 100vh;
+    width: 100vw;
+    main{
+        height: 100%;
+        width: 100%;
+        article{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.up-link{
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 2px 15px;
+}
+
+#contact-nav:hover{
+    color: white !important;
+    background-color: rgb(137, 213, 248);
+    border: none;
+}
+#head{
+    height: auto;
+}
+
+.header{
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 100% 100%;
+}
+
+.main-link{
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+#footer{
+    background-color: rgb(57, 208, 180);
+    ul{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: #fff !important;
+        }
+    }
+}
+.my-nav a{
+    color: white !important;
+}
+#contact-nav{
+    color: black !important;
+}
+.yellow-link:hover{
+   border-bottom: 4px solid yellow;
+}
+.pink-link:hover{
+    border-bottom: 4px solid rgb(237, 2, 104);
+}
+.sans-heading{
+    font-family: sans-serif;
+}
+.testimonial-head{
+    letter-spacing: .3rem;
+}
+
+#contacts > *{
+    width: 50%;
+    height: 30rem;
+}
+.graphic{
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+}
+
+.photo{
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+}
+#transformation, #photos{
+    height: 55%;
+}
+
+.image-3{ 
+    width: 50%;
+}
+.text-mine{
+    width: 50%;
+}
+#foot-link{
+    a{
+        .foot-link-image:hover{
+            fill: white !important;
+        }
+    }
+}
+@media(max-width:767px){
+.my-nav{
+    background-color: white;
+    color: black;
+    position: relative;
+    margin: 3rem 0 !important;
+}
+.my-nav ul li .up-link{
+    color: black !important;
+    margin: 5px auto;
+}
+.my-nav::before{
+    content: '';
+    display: block;
+    background-color: red;
+    border-top:20px solid rgb(49, 190, 255) ;
+    border-right:20px solid #fff ;
+    border-bottom:0px solid #fff ;
+    position: absolute;
+    right: 0;
+    transform: translateY(-100%);
+}
+.image-3{
+    width: 100% !important;
+    // height: 1rem;
+    object-fit: contain;
+}
+#contacts > *{
+    width: 100%;
+}
+
+#transformation, #photos{
+    width: 100%;
+    height: unset;
+    
+}
+
+.text-mine{
+    width: 100%;
+}
+
+
+}
+
